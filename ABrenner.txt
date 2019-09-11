@@ -1,0 +1,19 @@
+Username: A-Brenner
+URL: https://github.com/A-Brenner/cisc275-fall2019-first-git
+
+- In your play directory, create four files. Make it so that: one is untracked; one is modified; one is staged; one is in the repo. Verify the state of your four files and ask another person to confirm you have those four files in four states.
+
+In this space, type the sequence of commands you used to achieve the final state of all four files:
+
+touch file1.txt file2.txt file3.txt file4.txt
+echo "file2 info: name / address ;)" >> file2.txt
+git init
+git add file2.txt
+git add file3.txt
+git add file4.txt
+echo "hey hi hello this is file3 :)" >> file3.txt
+git commit file2.txt -m "file2 with name / address info"
+
+
+
+
